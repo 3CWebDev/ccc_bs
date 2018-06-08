@@ -1,0 +1,13 @@
+#header-wrapper{
+  clear:both;
+  background-color:$header_wrapper_color;
+}
+#navbar{
+  background-color:$header_wrapper_color;
+  border:none;
+}
+
+/* Menu links color */
+.navbar-default .navbar-nav > li > a{
+  color:#fff;
+}

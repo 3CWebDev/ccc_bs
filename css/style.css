@@ -9628,3 +9628,30 @@ html, p, h1, h2, h3, h4, address, li {
     float: right;
   }
 }
+/* line 1, ../scss/_menus.scss */
+#header-wrapper {
+  clear: both;
+  background-color: #00aeee;
+}
+
+/* line 5, ../scss/_menus.scss */
+#navbar {
+  background-color: #00aeee;
+  border: none;
+}
+
+/* Menu links color */
+/* line 11, ../scss/_menus.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+
+/* line 1, ../scss/_footer.scss */
+.footer {
+  background: #333;
+  color: #fff;
+}
+/* line 4, ../scss/_footer.scss */
+.footer a {
+  color: #fff;
+}
