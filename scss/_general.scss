@@ -2,9 +2,9 @@ html, p, h1, h2, h3, h4, address, li{
   font-family:$sans_serif_font_family;
 }
 
-
 @media #{$normal} {
   .pull-right-lg {
     float: right;
   }
 }
+

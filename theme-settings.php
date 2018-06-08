@@ -17,12 +17,12 @@ use Drupal\Core\Form\FormStateInterface;
  */
 function ccc_bs_form_system_theme_settings_alter(array &$form, FormStateInterface $form_state) {
 
+
   $form['options_settings']['social_options_settings'] = [
       '#group' => 'bootstrap',
       '#type' => 'details',
       '#title' => t('Social Media Settings'),
   ];
-
   $form['options_settings']['social_options_settings']['facebook'] = [
       '#type' => 'textfield',
       '#title' => t('Facebook URL'),
